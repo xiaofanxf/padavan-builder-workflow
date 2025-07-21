@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: https://github.com/xiaofanxf/padvavn
+    container: https://github.com/xiaofanxf/padvavn-ng
     defaults: { run: { shell: bash } }
     steps:
     - uses: actions/checkout@v4
